@@ -1,0 +1,423 @@
+/*========= FTS Website Stylesheet =======*/
+
+@import url('https://fonts.googleapis.com/css?family=Source%20Code%20Pro');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+body {
+	background-color: white;
+	width: 95%;
+	margin: 0 auto;
+	font-family: 'Questrial', arial;
+	font-size: 16px;
+	}
+
+	p, h2 {
+	text-align: center;
+	}
+
+h2 {
+	font-family:'Raleway';
+	}
+
+	p {
+		letter-spacing: 2px;
+		font-weight: 300;
+		line-height: 1.2;
+	}
+
+/*========= Header =======*/
+
+header {
+	background-color: white;
+	diplay: block;
+	height: 90px;
+	padding: 10px;
+	margin: 0;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 10;
+
+	}
+
+header div {
+	visibility: hidden;
+		}
+
+.dlogo {
+	width: 85%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+	margin: 150px auto auto auto;
+	}
+
+
+nav ul h1 {
+	background-color: white;
+	font-family: papyrus;
+
+	padding: 0px;
+	margin: 10px;
+	text-align: right;
+	position: absolute;
+	right: 30px;
+ 	top: 0px;
+	}
+
+/*========= Navigation =======*/
+
+nav {
+	list-style-type: none;
+	background-color: white;
+	text-align: left;
+	padding: 1px;
+	margin: 0px;
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+	}
+
+nav ul li {
+	display: inline;
+	padding: 10px;
+	margin: 0;
+	}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: Segoe Print;
+	padding: 15px 15px;
+	color: #000;
+	background-color: #fff;
+	}
+
+span {
+	text-decoration: underline;
+	}
+
+nav ul li a:hover {
+	color: #fff;
+	background-color: #000;
+	}
+
+
+/*========= Homepage Image =======*/
+
+.homeimage {
+
+	display: block;
+	margin: 150px auto auto auto;
+	width: auto;
+	}
+
+.homeimage .gif1 {
+	position: absolute;
+	top: 150px;
+	left: 10px;
+	width: 30%;
+}
+
+.homeimage .gif2 {
+	position: absolute;
+	top: 150px;
+	right: 10px;
+	width: 30%;
+}
+
+/*--.homeimage::after {
+			background-image: url(image/FTSGIF.gif);
+	    background-size: 263px 131px;
+	    display: block;
+	    width: 263px;
+	    height: 131px;
+	    content: "";
+	    position: absolute;
+	    top: 150px;
+	    right: 10px;
+			}--*/
+
+#header2 {
+	text-transform: uppercase;
+	width: fit-content;
+	width: -moz-fit-content;
+	letter-spacing: 5px;
+	color: white;
+  background-color: black;
+	margin: 15px auto;
+	padding: 0 1px;
+	border: 1px solid black;
+	}
+
+	#header2 h2 {
+		margin: 6px 0;
+		font-weight: 400;
+		font-family: monospace;
+	}
+
+/*========= Paragraphs =======*/
+
+.section.description {
+
+	width: 600px;
+	border: 1px solid #eeeeec;
+	}
+
+.flexcontainer {
+
+	overflow: auto;
+	width: 100%;
+	text-align: center;
+	margin: 20px auto;
+	border: 2px solid #eeeeec;
+	box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	}
+
+.box1 {
+
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	flex-grow: 1;
+}
+
+.box2 {
+
+	width: 300px;
+	margin: auto;
+	padding: 1px;
+	overflow: hidden;
+	flex-grow: 1;
+}
+
+.flexcontainer2 {
+
+	overflow: auto;
+	width: 100%;
+	text-align: center;
+	margin: 20px auto;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	}
+
+.box3 {
+
+	width: 300px;
+
+	margin: auto;
+	padding: 0 20px;
+
+
+	overflow: hidden;
+	flex-grow: 1;
+}
+
+.box4 {
+
+	width: 300px;
+
+	margin: auto;
+	padding: 0 20px;
+
+
+	overflow: hidden;
+	flex-grow: 1;
+}
+
+figure {
+
+		padding: 5px;
+		margin: 20px;
+		border: 1px solid #eeeec;
+		}
+
+.image123 {
+	box-shadow: 4px 0 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+hgroup {
+	margin-top: auto;
+	text-align: center;
+	text-decoration: underline;
+  font-family: sans-serif;
+	}
+
+.about1 {
+	width: 100%
+	padding: 20px;
+	border: 2px solid white;
+	margin: auto;
+
+	}
+
+
+.about2 {
+	padding: 0px;
+	border: 2px solid white;
+	width: 47%;
+	display: inline-block;
+	margin: 10px 10px;
+	}
+
+
+section {
+	float: middle;
+	}
+
+iframe {
+	width: 100%;
+	height: 400px;
+
+	}
+
+/*===Contact Us====*/
+
+#FlexContactus {
+	background-color: black;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	}
+
+#FlexContactus p {
+	font-size: 18px;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	}
+
+#FlexContactus h2 {
+
+	font-family: arial;
+	color: white;
+	text-align: center;
+	font-weight: 200;
+	letter-spacing: 3px;
+	}
+
+.location1 {
+	width: 400px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid white;
+	flex-grow: 1;
+	}
+
+	.location1 h3 {
+		color: white;
+		text-align: center;
+		margin: 0;
+		padding: 9px 0 0 0;
+		font-weight: 400;
+		letter-spacing: 3px;
+	}
+
+	.location2 {
+		width: 48%;
+		display: inline-block;
+		vertical-align: top;
+		border: 1px solid white;
+		flex-grow: 1;
+		}
+
+#theForm {
+	color: white;
+	display: table;
+	padding: 15px;
+	background-color: black;
+	border: none;
+	width: 90%;
+	}
+
+.row {
+diplay: table-row;
+}
+
+.row label {
+	display: table-cell;
+	padding: 2px;
+	text-align: left;
+	}
+
+.row input {
+	background-color: rgb(205, 205, 205);
+	display: table-cell;
+	padding: 2px;
+	width: 100%;
+	height: 40px;
+	}
+
+textarea {
+	background-color: rgb(205, 205, 205);
+	width: 100%;
+	}
+
+.buttonArea {
+	text-align: center;
+}
+
+.button1 {
+	width: 50%;
+	height: 30px;
+
+	vertical-align: middle;
+	margin: auto;
+	font-size: 18px;
+	color: rgb(54, 51, 51);
+	background-color: aqua;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	}
+
+.button1:hover {
+	background-color: rgb(0, 22, 206);
+	color: white;
+	}
+
+/*===social media====*/
+
+#socialmedia {
+	list-style-type: none;
+	text-align: center;
+	padding: 0px;
+	margin: 50px auto 50px auto;
+	}
+
+#socialmedia ul {
+	padding: 0;
+	margin: 0;
+	vertical-text: middle;
+	}
+
+#socialmedia ul li {
+	display: inline;
+	padding: 10px;
+	margin: 0;
+	}
+
+#socialmedia ul li a {
+	padding: 10px 10px;
+	}
+
+#socialmedia ul li .social {
+	width: 4%;
+	}
+
+
+/*========= Copy Right =======*/
+footer {
+	margin: 10px;
+	text-align: center;
+	font-size: 80%;
+	font-family: arial;
+	}
